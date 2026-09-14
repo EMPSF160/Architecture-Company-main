@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Masterworks Portfolio — ONYX Architecture Studio. Award-winning residential, commercial, civic, and sustainable masterplans.">
+    <title>Portfolio & Masterworks — ONYX</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Google Fonts: Syne & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <div class="brand-badge">O</div>
+                    <span>ONYX</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                        <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item ms-lg-2"><a class="btn btn-outline btn-sm" href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Dedicated Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <div class="luxury-badge mb-3">
+                    <i class="fas fa-sparkles"></i> Global Masterworks
+                </div>
+                <h1>Architectural <span class="gradient-text">Portfolio</span></h1>
+                <p>A curated curation of iconic civic monuments, computational commercial towers, and ultra-prime private sanctuaries across the globe.</p>
+                <div class="page-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Portfolio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Spotlight Project Banner -->
+    <section class="bg-white" style="padding: 70px 0 30px;">
+        <div class="container">
+            <div class="news-spotlight-card">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="position-relative h-100">
+                            <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="The Obsidian Horizon Tower" class="news-spotlight-img">
+                            <div class="project-location-badge">
+                                <i class="fas fa-map-pin"></i> Tokyo, Japan
+                            </div>
+                            <div class="project-year-badge">
+                                <span>2025 Flagship</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="news-spotlight-body">
+                            <div class="luxury-badge mb-3">Featured Landmark</div>
+                            <h2 style="font-size: 2.1rem;" class="mb-3">The Obsidian <span class="gradient-text">Horizon Tower</span></h2>
+                            <p class="text-secondary mb-4">A 68-story biophilic hyper-structure integrating kinetic solar shading arrays, vertical sky gardens, and triple-glazed parametric crystal facades engineered for seismic resilience.</p>
+                            <div class="project-specs-strip mb-4">
+                                <div class="project-spec-item">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <span>145,000 m²</span>
+                                </div>
+                                <div class="project-spec-item">
+                                    <i class="fas fa-leaf"></i>
+                                    <span>LEED Platinum</span>
+                                </div>
+                                <div class="project-spec-item">
+                                    <i class="fas fa-layer-group"></i>
+                                    <span>Commercial / Mixed</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="project-details.html" class="btn btn-primary">
+                                    Explore Case Study <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <a href="contact.html" class="btn btn-outline">
+                                    Commission Landmark
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filterable Projects Portfolio Grid -->
+    <section class="bg-light" style="padding: 50px 0 100px;">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-tag">Explore By Discipline</span>
+                <h2>Signature <span class="gradient-text">Commissions</span></h2>
+                <p>Filter by typology to explore how our computational design language translates across diverse scales and topographies.</p>
+            </div>
+
+            <!-- Filter Buttons Navigation -->
+            <div class="filter-nav">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th-large"></i> All Masterworks
+                </button>
+                <button class="filter-btn" data-filter="residential">
+                    <i class="fas fa-home"></i> Residential
+                </button>
+                <button class="filter-btn" data-filter="commercial">
+                    <i class="fas fa-building"></i> Commercial
+                </button>
+                <button class="filter-btn" data-filter="civic">
+                    <i class="fas fa-landmark"></i> Civic & Cultural
+                </button>
+                <button class="filter-btn" data-filter="masterplans">
+                    <i class="fas fa-map"></i> Masterplans
+                </button>
+            </div>
+
+            <!-- Projects Grid (Interactive Filter Container) -->
+            <div class="row g-4 filter-container">
+                <!-- Project 1: Residential -->
+                <div class="col-lg-4 col-md-6 filter-item" data-category="residential">
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Aether Ridge Villa" class="project-img">
+                            <div class="project-location-badge">
+                                <i class="fas fa-map-pin"></i> Aspen, Colorado
+                            </div>
+                            <div class="project-year-badge">2024</div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-category-tag">Private Sanctuary</div>
+                            <h3 class="project-title">Aether Ridge Villa</h3>
+                            <p class="project-desc">Cantilevered alpine retreat anchored into glacial granite, featuring triple-height glass atriums and geothermal heating loops.</p>
+                            <div class="project-specs-strip">
+                                <div class="project-spec-item"><i class="fas fa-expand"></i> <span>2,400 m²</span></div>
+                                <div class="project-spec-item"><i class="fas fa-award"></i> <span>AIA Honor</span></div>
+                                <div class="project-spec-item"><i class="fas fa-bolt"></i> <span>Net-Zero</span></div>
+                            </div>
+                            <a href="project-details.html" class="card-link">
+                                <span>View Architectural Spec</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Commercial -->
+                <div class="col-lg-4 col-md-6 filter-item" data-category="commercial">
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.pexels.com/photos/323775/pexels-photo-323775.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Nexus Global HQ" class="project-img">
+                            <div class="project-location-badge">
+                                <i class="fas fa-map-pin"></i> London, UK
+                            </div>
+                            <div class="project-year-badge">2024</div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-category-tag">Corporate Headquarters</div>
+                            <h3 class="project-title">Nexus Global Headquarters</h3>
+                            <p class="project-desc">A computational double-skin glass tower with integrated smart-shading louvers and landscaped biophilic sky lounges.</p>
+                            <div class="project-specs-strip">
+                                <div class="project-spec-item"><i class="fas fa-expand"></i> <span>64,000 m²</span></div>
+                                <div class="project-spec-item"><i class="fas fa-leaf"></i> <span>BREEAM Outst.</span></div>
+                                <div class="project-spec-item"><i class="fas fa-clock"></i> <span>Completed</span></div>
+                            </div>
+                            <a href="project-details.html" class="card-link">
+                                <span>View Architectural Spec</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Civic & Cultural -->
+                <div class="col-lg-4 col-md-6 filter-item" data-category="civic">
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Vortex Contemporary Museum" class="project-img">
+                            <div class="project-location-badge">
+                                <i class="fas fa-map-pin"></i> Zurich, Switzerland
+                            </div>
+                            <div class="project-year-badge">2023</div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-category-tag">Cultural Institution</div>
+                            <h3 class="project-title">Vortex Contemporary Museum</h3>
+                            <p class="project-desc">A continuous spiraling sculptural gallery constructed from ultra-high performance concrete and titanium alloy panels.</p>
+                            <div class="project-specs-strip">
+                                <div class="project-spec-item"><i class="fas fa-expand"></i> <span>38,000 m²</span></div>
+                                <div class="project-spec-item"><i class="fas fa-gem"></i> <span>Pritzker Nom.</span></div>
+                                <div class="project-spec-item"><i class="fas fa-landmark"></i> <span>Civic</span></div>
+                            </div>
+                            <a href="project-details.html" class="card-link">
+                                <span>View Architectural Spec</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Residential -->
+                <div class="col-lg-4 col-md-6 filter-item" data-category="residential">
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Solarium Waterfront Estate" class="project-img">
+                            <div class="project-location-badge">
+                                <i class="fas fa-map-pin"></i> Lake Como, Italy
+                            </div>
+                            <div class="project-year-badge">2024</div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-category-tag">Coastal Sanctuary</div>
+                            <h3 class="project-title">Solarium Waterfront Estate</h3>
+                            <p class="project-desc">Terraced luxury villas cascading down waterfront slopes with motorized glass walls framing unobstructed alpine lake vistas.</p>
+                            <div class="project-specs-strip">
+                                <div class="project-spec-item"><i class="fas fa-expand"></i> <span>3,800 m²</span></div>
+                                <div class="project-spec-item"><i class="fas fa-water"></i> <span>Private Pier</span></div>
+                                <div class="project-spec-item"><i class="fas fa-shield-alt"></i> <span>Smart Home</span></div>
+                            </div>
+                            <a href="project-details.html" class="card-link">
+                                <span>View Architectural Spec</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Masterplans -->
+                <div class="col-lg-4 col-md-6 filter-item" data-category="masterplans">
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="images/service-urban-planning.jpg" alt="Neo-Oasis Eco-District" class="project-img">
+                            <div class="project-location-badge">
+                                <i class="fas fa-map-pin"></i> Dubai, UAE
+                            </div>
+                            <div class="project-year-badge">2025</div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-category-tag">Regenerative Masterplan</div>
+                            <h3 class="project-title">Neo-Oasis Eco-District</h3>
+                            <p class="project-desc">A 120-hectare carbon-negative district combining autonomous transit corridors, solar micro-grids, and passive wind cooling towers.</p>
+                            <div class="project-specs-strip">
+                                <div class="project-spec-item"><i class="fas fa-expand"></i> <span>1.2M m²</span></div>
+                                <div class="project-spec-item"><i class="fas fa-tree"></i> <span>65% Green</span></div>
+                                <div class="project-spec-item"><i class="fas fa-globe"></i> <span>Masterplan</span></div>
+                            </div>
+                            <a href="project-details.html" class="card-link">
+                                <span>View Architectural Spec</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Commercial -->
+                <div class="col-lg-4 col-md-6 filter-item" data-category="commercial">
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Chronos Tech Innovation Hub" class="project-img">
+                            <div class="project-location-badge">
+                                <i class="fas fa-map-pin"></i> Singapore
+                            </div>
+                            <div class="project-year-badge">2023</div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-category-tag">Commercial & R&D</div>
+                            <h3 class="project-title">Chronos Tech Innovation Hub</h3>
+                            <p class="project-desc">Interlocking organic pavilion structures designed for next-generation research laboratories, AI clusters, and incubator spaces.</p>
+                            <div class="project-specs-strip">
+                                <div class="project-spec-item"><i class="fas fa-expand"></i> <span>82,000 m²</span></div>
+                                <div class="project-spec-item"><i class="fas fa-microchip"></i> <span>AI-Integrated</span></div>
+                                <div class="project-spec-item"><i class="fas fa-leaf"></i> <span>Green Mark</span></div>
+                            </div>
+                            <a href="project-details.html" class="card-link">
+                                <span>View Architectural Spec</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Impact Statistics -->
+    <section class="bg-white" style="padding: 80px 0;">
+        <div class="container">
+            <div class="hero-stats-row">
+                <div class="hero-stat-item">
+                    <div class="hero-stat-number" data-counter="250" data-suffix="+">250+</div>
+                    <div class="hero-stat-label">Landmarks Delivered</div>
+                </div>
+                <div class="hero-stat-item">
+                    <div class="hero-stat-number" data-counter="18" data-suffix=" Metros">18 Metros</div>
+                    <div class="hero-stat-label">Global Studios & Sites</div>
+                </div>
+                <div class="hero-stat-item">
+                    <div class="hero-stat-number" data-counter="4.8" data-prefix="$" data-suffix="B">$4.8B</div>
+                    <div class="hero-stat-label">Portfolio Realized</div>
+                </div>
+                <div class="hero-stat-item">
+                    <div class="hero-stat-number" data-counter="42" data-suffix=" Honors">42 Honors</div>
+                    <div class="hero-stat-label">International Design Awards</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Banner CTA -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="consultation-banner text-center text-lg-start">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <h2>Ready to Commission a <span class="gradient-text">Bespoke Masterwork?</span></h2>
+                        <p>Discuss your site location, programmatic brief, and investment vision directly with our studio partners.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+                        <a href="contact.html" class="btn btn-primary btn-lg">
+                            <span>Request Atelier Consultation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    <div class="container">
+        <div class="footer-content">
+            <!-- Col 1: Brand -->
+            <div class="footer-section">
+                <div class="footer-brand-header">
+                    <div class="brand-badge" style="width:34px;height:34px;border-radius:6px;background:var(--gradient-luxury);display:flex;align-items:center;justify-content:center;color:#07090e;font-weight:800;font-size:1rem;">O</div>
+                    <span class="brand-title">ONYX</span>
+                </div>
+                <p>A global leader in forward-thinking parametric architecture, eco-regenerative masterplanning, and high-precision luxury environments.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <!-- Col 2: Navigation -->
+            <div class="footer-section">
+                <h4 class="footer-heading">Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Studio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Portfolio</a></li>
+                    <li><a href="research.html">R&D Lab</a></li>
+                    <li><a href="news.html">Journal</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Col 3: Disciplines -->
+            <div class="footer-section">
+                <h4 class="footer-heading">Disciplines</h4>
+                <ul>
+                    <li><a href="services.html">Parametric Architecture</a></li>
+                    <li><a href="services.html">Interior Spatial Design</a></li>
+                    <li><a href="services.html">Urban Masterplanning</a></li>
+                    <li><a href="services.html">Adaptive Renovation</a></li>
+                    <li><a href="services.html">Sustainable Feasibility</a></li>
+                    <li><a href="services.html">BIM Project Delivery</a></li>
+                </ul>
+            </div>
+            
+            <!-- Col 4: Studio Contact -->
+            <div class="footer-section">
+                <h4 class="footer-heading">Studio Contact</h4>
+                <div class="footer-contact-info">
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>128 Obsidian Plaza, Design District, NY 10012</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+1234567890">+1 (234) 567-890</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:inquiry@onyx.com">inquiry@onyx.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon – Fri: 08:30 – 19:00 EST</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> ONYX Architecture Studio. All rights reserved.</p>
+            <ul class="footer-bottom-links">
+                <li><a href="about.html">Studio Ethos</a></li>
+                <li><a href="contact.html">Confidential NDA</a></li>
+                <li><a href="contact.html">Global Inquiries</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
