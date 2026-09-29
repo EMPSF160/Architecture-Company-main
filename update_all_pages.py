@@ -62,8 +62,8 @@ FOOTER_HTML = '''<footer>
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon facebook" aria-label="Facebook">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon twitter" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon twitter" aria-label="X (Twitter)">
+                        <i class="fa-brands fa-x-twitter"></i>
                     </a>
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon instagram" aria-label="Instagram">
                         <i class="fab fa-instagram"></i>

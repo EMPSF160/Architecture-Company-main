@@ -67,13 +67,23 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-label">Create Password *</label>
-                                    <input type="password" class="form-control" placeholder="••••••••••••" required>
+                                    <div class="password-input-wrapper">
+                                        <input type="password" class="form-control" placeholder="••••••••••••" required>
+                                        <button type="button" class="password-toggle-btn" aria-label="Toggle password visibility">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="form-label">Confirm Password *</label>
-                                    <input type="password" class="form-control" placeholder="••••••••••••" required>
+                                    <div class="password-input-wrapper">
+                                        <input type="password" class="form-control" placeholder="••••••••••••" required>
+                                        <button type="button" class="password-toggle-btn" aria-label="Toggle password visibility">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -87,6 +97,18 @@
                                     <span>Register Atelier Account</span>
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </button>
+
+                                <!-- Social Auth Links -->
+                                <div class="auth-divider">
+                                    <span>Or Register With</span>
+                                </div>
+                                <div class="auth-social-row">
+                                    <a href="#" class="auth-social-btn" title="Register with Google" aria-label="Sign up with Google"><i class="fab fa-google"></i></a>
+                                    <a href="#" class="auth-social-btn" title="Register with Apple" aria-label="Sign up with Apple"><i class="fab fa-apple"></i></a>
+                                    <a href="#" class="auth-social-btn" title="Register with LinkedIn" aria-label="Sign up with LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#" class="auth-social-btn" title="Register with GitHub" aria-label="Sign up with GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+
                                 <div class="text-center">
                                     <p class="text-muted small mb-0">Already registered? <a href="login.html" class="text-accent fw-bold">Login to Portal</a></p>
                                 </div>
